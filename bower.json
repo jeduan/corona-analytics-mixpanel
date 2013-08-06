@@ -1,0 +1,5 @@
+{
+  "name": "analytics-mixpanel",
+  "version": "0.1.0",
+  "main": "analytics-mixpanel.lua"
+}
