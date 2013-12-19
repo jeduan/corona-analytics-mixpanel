@@ -5,9 +5,9 @@ local log = require 'vendor.log.log'
 local logging = false
 
 M.debug = false
-function M.init(key)
+function M.init(key, params)
 	assert(key and key ~= '', 'There is no analyticsToken set up')
-	mixpanel.initMixpanel(key)
+	mixpanel.initMixpanel(key, params)
 	logging = true
 end
 
