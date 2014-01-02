@@ -1,9 +1,9 @@
 {
   "name": "analytics-mixpanel",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "main": "analytics-mixpanel.lua",
   "dependencies": {
-    "mixpanel": "~0.2.1",
+    "mixpanel": "~0.2.3",
     "cacharro": "~0.1.0",
     "log": "~0.1.0"
   }
