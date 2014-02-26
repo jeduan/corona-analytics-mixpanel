@@ -40,10 +40,15 @@ module.exports = function(grunt) {
     },
 
     release: {
-      file: 'bower.json',
-      npm: false,
-      github: {
-        repo: 'jeduan/corona-analytics-mixpanel',
+      options: {
+        file: 'bower.json',
+        npm: false,
+        tagName: 'v<%= version %>',
+        github: {
+          repo: 'jeduan/corona-analytics-mixpanel',
+          usernameVar: 'GITHUB_TOKEN',
+          passwordVar: 'GITHUB_PASSWORD'
+        }
       }
     }
   })
