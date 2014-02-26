@@ -2,6 +2,7 @@
   "name": "analytics-mixpanel",
   "version": "0.2.3",
   "main": "analytics-mixpanel.lua",
+  "ignore": ["Gruntfile.js", "package.json"],
   "dependencies": {
     "mixpanel": "~0.2.3",
     "cacharro": "~0.1.0",
